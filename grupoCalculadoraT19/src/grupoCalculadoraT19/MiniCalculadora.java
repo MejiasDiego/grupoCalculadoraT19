@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class codigo_prueba_calc_diego extends JFrame {
+public class MiniCalculadora extends JFrame {
 
     private JTextField campoEntrada;
     private JTextField campoResultado;
@@ -14,7 +14,7 @@ public class codigo_prueba_calc_diego extends JFrame {
     private String operacionActual = "";
     private StringBuilder numerosSeleccionados = new StringBuilder();
 
-    public codigo_prueba_calc_diego() {
+    public MiniCalculadora() {
         setLayout(new BorderLayout());
 
         // Definir colores
@@ -208,6 +208,6 @@ public class codigo_prueba_calc_diego extends JFrame {
     }
 
     public static void main(String[] args) {
-        new codigo_prueba_calc_diego();
+        new MiniCalculadora();
     }
 }
